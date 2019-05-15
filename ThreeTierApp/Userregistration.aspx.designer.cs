@@ -10,7 +10,7 @@
 namespace ThreeTierApp {
     
     
-    public partial class Userregistration {
+    public partial class UserRegistration {
         
         /// <summary>
         /// Head1 control.

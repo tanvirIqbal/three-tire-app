@@ -218,7 +218,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="Userregistration.aspx" />
+    <Content Include="UserRegistration.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -375,12 +375,12 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="Userregistration.aspx.cs">
-      <DependentUpon>Userregistration.aspx</DependentUpon>
+    <Compile Include="UserRegistration.aspx.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Userregistration.aspx.designer.cs">
-      <DependentUpon>Userregistration.aspx</DependentUpon>
+    <Compile Include="UserRegistration.aspx.designer.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -406,15 +406,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bussinesslogic\Bussinesslogic.csproj">
-      <Project>{2cb27247-922a-4627-8da7-244216036a48}</Project>
+      <Project>{6c32dbdc-523c-4fe1-af0c-65446cc8bdd7}</Project>
       <Name>Bussinesslogic</Name>
     </ProjectReference>
     <ProjectReference Include="..\BussinessObject\BussinessObject.csproj">
-      <Project>{a113adfd-4d28-4c7f-98e4-3a53a9a826f6}</Project>
+      <Project>{9fb391e8-b23c-4c2f-8a88-b70609cf185c}</Project>
       <Name>BussinessObject</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
-      <Project>{6d9022c2-7634-471c-a4a9-c2b8dfc91b4b}</Project>
+      <Project>{978aa1da-1ea3-4965-8102-b7c8e6728e91}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
