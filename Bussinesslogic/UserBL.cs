@@ -2,7 +2,7 @@
 
 namespace Bussinesslogic
 {
-    public class Class1
+    public class UserBL
     {
     }
 }
