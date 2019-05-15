@@ -396,6 +396,20 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bussinesslogic\Bussinesslogic.csproj">
+      <Project>{2cb27247-922a-4627-8da7-244216036a48}</Project>
+      <Name>Bussinesslogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BussinessObject\BussinessObject.csproj">
+      <Project>{a113adfd-4d28-4c7f-98e4-3a53a9a826f6}</Project>
+      <Name>BussinessObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{6d9022c2-7634-471c-a4a9-c2b8dfc91b4b}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
